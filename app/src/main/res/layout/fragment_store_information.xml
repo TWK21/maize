@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StoreInformationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:paddingTop="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/infoTab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="22dp"
+                android:text="Store Hours:"
+                android:textAlignment="viewStart"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:gravity="start" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sunday:"
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="9AM - 9PM"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Monday:"
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="7AM - 1AM"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tuesday:"
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="7AM - 1AM"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday:"
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="7AM - 1AM"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thursday:"
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="7AM - 1AM"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Friday:"
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="7AM - 1AM"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday:"
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="7AM - 11PM"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="22dp"
+                android:text="Holiday Hours:"
+                android:textAlignment="viewStart"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:gravity="start" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1/1 (New Year's Day):"
+                    android:textAlignment="viewStart"
+                    android:textSize="20sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="7AM - 3PM"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1/21 (MLK Jr. Day):"
+                    android:textAlignment="viewStart"
+                    android:textSize="20sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="CLOSED"
+                    android:textColor="#d10e0e"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2/18 (President's Day):"
+                    android:textAlignment="viewStart"
+                    android:textSize="20sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="CLOSED"
+                    android:textColor="#d10e0e"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4/19 (Good Friday):"
+                    android:textAlignment="viewStart"
+                    android:textSize="20sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="CLOSED"
+                    android:textColor="#d10e0e"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7/4 (Independence Day):"
+                    android:textAlignment="viewStart"
+                    android:textSize="20sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="CLOSED"
+                    android:textColor="#d10e0e"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9/2 (Labor Day):"
+                    android:textAlignment="viewStart"
+                    android:textSize ="20sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="CLOSED"
+                    android:textColor="#d10e0e"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11/11 (Veteran's Day):"
+                    android:textAlignment="viewStart"
+                    android:textSize="20sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="9AM - 3PM"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11/28 (Thanksgiving Day):"
+                    android:textAlignment="viewStart"
+                    android:textSize="20sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="CLOSED"
+                    android:textColor="#d10e0e"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12/25 (Christmas Day):"
+                    android:textAlignment="viewStart"
+                    android:textSize="20sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="22dp"
+                    android:text="CLOSED"
+                    android:textColor="#d10e0e"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="24sp"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

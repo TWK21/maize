@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DealsFragment"
+    android:orientation="vertical"
+    android:paddingTop="65dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/infoTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="Today's HOT Deals"
+            android:textAlignment="viewStart"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:gravity="start" />
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fuji Apple:"
+                android:textAlignment="viewStart"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="22dp"
+                android:text="Buy 3, Get 1 FREE!"
+                android:layout_alignParentEnd="true"
+                android:textSize="18dp"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beef: "
+                android:textAlignment="viewStart"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="22dp"
+                android:text="$0.50 OFF per lb"
+                android:layout_alignParentEnd="true"
+                android:textSize="18dp"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yoblait Yogurt:"
+                android:textAlignment="viewStart"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="22dp"
+                android:text="Buy 1, Get 1 FREE"
+                android:layout_alignParentEnd="true"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bay's BBQ Chips:"
+                android:textAlignment="viewStart"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="22dp"
+                android:text="Buy 10, 10% OFF coupon for Baskin Robins!"
+                android:layout_alignParentEnd="true"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Whole Wheat Bread:"
+                android:textAlignment="viewStart"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="22dp"
+                android:text="10% OFF if bought with jam!"
+                android:layout_alignParentEnd="true"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hass Avocado:"
+                android:textAlignment="viewStart"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="22dp"
+                android:text="$0.25 OFF per lb!"
+                android:layout_alignParentEnd="true"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Campfell's Cream of Mushroom Soup:"
+                android:textAlignment="viewStart"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="22dp"
+                android:text="Buy 1, Get 1 FREE!"
+                android:layout_alignParentEnd="true"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true" />
+
+
+</LinearLayout>

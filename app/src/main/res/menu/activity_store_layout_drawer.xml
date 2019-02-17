@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single"
+        android:visible="true">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Direction" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_shopping_basket"
+            android:title="Shop" />
+        <item
+            android:id="@+id/nav_receipt"
+            android:icon="@drawable/ic_shopping_cart"
+            android:title="Cart" />
+        <item
+            android:id="@+id/nav_deal"
+            android:icon="@drawable/ic_local_offer_black_24dp"
+            android:title="Today's Deals" />
+        <item
+            android:id="@+id/nav_store_information"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Store Information" />
+    </group>
+
+    <item android:title="Help">
+        <menu>
+            <item
+                android:id="@+id/nav_call_employee"
+                android:icon="@drawable/ic_announcement"
+                android:title="Call an Employee" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Help" />
+        </menu>
+    </item>
+
+</menu>
