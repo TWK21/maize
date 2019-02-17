@@ -34,4 +34,15 @@ app.post('/api/id', (req, res) => {
     res.json(item);
 });
 
+app.post('/api/map', (req, res) => {
+    res.json({
+        map: db.get('map').value(),
+        locations: db.get('locations').value()
+    });
+});
+
+app.post('/api/metadata', (req, res) => {
+    res.json(db.get('metadata').value());
+});
+
 app.listen(4600);
