@@ -4,7 +4,11 @@
       "id": 0,
       "name": "Fuji Apple",
       "price": 0.99,
-      "metadata": {},
+      "metadata": {
+		"description": "Delicious, crisp Fuji apples. Fuji apples are a popular ingredient in many recipes but are typically eaten plain.",
+		"isOrganic": false,
+		"importedFrom": "Fuji"
+	  },
       "front": {
         "x": 1,
         "y": 3
@@ -18,7 +22,10 @@
       "id": 1,
       "name": "Fresh Bananas",
       "price": 4.49,
-      "metadata": {},
+      "metadata": {
+		"description": "Rich in potassium and a common fruit to eat plain. They are popular in many smoothies and desserts.",
+		"isOrganic": false
+	  },
       "front": {
         "x": 5,
         "y": 0
@@ -32,7 +39,10 @@
       "id": 2,
       "name": "Hass Avocado",
       "price": 3.47,
-      "metadata": {},
+      "metadata": {
+		"description": "Avocados are a staple in many dishes, expecially in Mexican dishes to make guacamole. Eaten plain with salt is also preferred.",
+		"isOrganic": true
+	  },
       "front": {
         "x": 7,
         "y": 0
@@ -46,7 +56,10 @@
       "id": 3,
       "name": "Iceberg Lettuce",
       "price": 1.49,
-      "metadata": {},
+      "metadata": {
+		"description": "Lettuce with crisp leaves and a crunchy texture are a great choice for salads.",
+		"isOrganic": false
+	  },
       "front": {
         "x": 3,
         "y": 3
@@ -60,7 +73,9 @@
       "id": 4,
       "name": "Bay's BBQ Chips",
       "price": 3.99,
-      "metadata": {},
+      "metadata": {
+		"description": "Smoked flavoring and sweet BBQ sauce in every bite of Bay's BBQ chips."
+	  },
       "front": {
         "x": 6,
         "y": 6
@@ -74,7 +89,9 @@
       "id": 5,
       "name": "Boritos Chips",
       "price": 3.99,
-      "metadata": {},
+      "metadata": {
+		"description": "Chips known worldwide and with a variety of flavors."
+	  },
       "front": {
         "x": 7,
         "y": 6
@@ -88,7 +105,11 @@
       "id": 6,
       "name": "Whole Wheat Bread",
       "price": 3.69,
-      "metadata": {},
+      "metadata": {
+		"description": "Healthy sandwhich bread that is for both adults and children.",
+		"glutenFree": false,
+		"containsPeanuts": false
+	  },
       "front": {
         "x": 2,
         "y": 12
@@ -102,7 +123,9 @@
       "id": 7,
       "name": "Yoblait Yogurt",
       "price": 0.69,
-      "metadata": {},
+      "metadata": {
+		"description": "Yogurt that comes in blueberry, strawberry, and peach for a quick snack."
+	  },
       "front": {
         "x": 8,
         "y": 3
@@ -116,7 +139,10 @@
       "id": 8,
       "name": "Whole Milk",
       "price": 3.99,
-      "metadata": {},
+      "metadata": {
+		"description": "Milk from local ranches rich in calcium.",
+		"isOrganic": false
+	  },
       "front": {
         "x": 9,
         "y": 10
@@ -130,7 +156,9 @@
       "id": 9,
       "name": "Campfell's Cream of Mushroom Soup",
       "price": 2.89,
-      "metadata": {},
+      "metadata": {
+		"description": "Campfell's signature Cream of Mushroom soup made from all natural ingrediants."
+	  },
       "front": {
         "x": 1,
         "y": 12
@@ -374,10 +402,5 @@
         "y": 15
       }
     ]
-  },
-  "metadata": {
-    "name": "Bons",
-    "address": "3210 maryann st",
-    "image": "https://gagfgjhtefsdfgh "
   }
 }
