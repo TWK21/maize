@@ -98,35 +98,35 @@ public class MapFragment extends Fragment {
                     if (curr != -1) {
                         found = true;
                         if (i > 0 &&
-                                (
-                                        (distance[i - 1][k] == -1) ||
-                                                (distance[i - 1][k] > (curr + 1))
-                                ) &&
-                                mapMatrix[i - 1][k] == 0) {
+                            (
+                                (distance[i - 1][k] == -1) ||
+                                (distance[i - 1][k] > (curr + 1))
+                            ) &&
+                            mapMatrix[i - 1][k] == 0) {
                             distance[i - 1][k] = curr + 1;
                         }
                         if (i < (rowNum - 1) &&
-                                (
-                                        (distance[i + 1][k] == -1) ||
-                                                (distance[i + 1][k] > (curr + 1))
-                                ) &&
-                                mapMatrix[i + 1][k] == 0) {
+                            (
+                                (distance[i + 1][k] == -1) ||
+                                (distance[i + 1][k] > (curr + 1))
+                            ) &&
+                            mapMatrix[i + 1][k] == 0) {
                             distance[i + 1][k] = curr + 1;
                         }
                         if (k > 0 &&
-                                (
-                                        (distance[i][k - 1] == -1) ||
-                                                (distance[i][k - 1] > (curr + 1))
-                                ) &&
-                                mapMatrix[i][k - 1] == 0) {
+                            (
+                                (distance[i][k - 1] == -1) ||
+                                (distance[i][k - 1] > (curr + 1))
+                            ) &&
+                            mapMatrix[i][k - 1] == 0) {
                             distance[i][k - 1] = curr + 1;
                         }
                         if (k < (colNum - 1) &&
-                                (
-                                        (distance[i][k + 1] == -1) ||
-                                                (distance[i][k + 1] > (curr + 1))
-                                ) &&
-                                mapMatrix[i][k + 1] == 0) {
+                            (
+                                (distance[i][k + 1] == -1) ||
+                                (distance[i][k + 1] > (curr + 1))
+                            ) &&
+                            mapMatrix[i][k + 1] == 0) {
                             distance[i][k + 1] = curr + 1;
                         }
                     }
